@@ -29,6 +29,9 @@ It's very unfinished
  * `playGame.ahk` is run automatically, but you may need to trigger it with `x` hotkey manually
  * Enjoy your ban
 
+## Contributing
+Please do, I'll accept pretty much any PR just keep it clean-ish
+
 ## Todo
 * Refactor
 * Tests
