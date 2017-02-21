@@ -1,15 +1,33 @@
 # bannedfromclubpenguin
 
 
-### Current record for this tool is 29.1s
-Requires:
+### [Current record for this tool is 29.1s (video)](https://www.youtube.com/watch?v=OALbVKuJm60)
+**Requires:**
 
- * Windows
+ * Autohotkey (could rewrite these scripts, they doesn't do much)
  * NodeJS
- * Autohotkey
  * Firefox/Selenium
  * Email server (with catch-all and local if possible)
 
+## What it do 
+**t+0 to t+3 seconds:**
+Create new penguin - Get CSRF tokens, break the captcha, randomly generate name, email, password, and submit everything to the server.
+Open new tab with the game at the login screen.
+
+**t+4 seconds:**
+Navigate to activation page, fill in the penguin name. 
+
+**t+4 to t+13 seconds:**
+Human manually solves the captcha while waiting for activation email to arrive.
+
+**t+13 seconds:**
+Got an email, read it, extract the activation code, fill it in the form and submit. Wait for next page.
+
+**t+14:**
+Blink and you'll miss it. Accepts the terms of use/privacy policy and submits the form.
+
+**t+14 to end:**
+Same as human, just faster.
 
 ## Setup
 It's very unfinished
