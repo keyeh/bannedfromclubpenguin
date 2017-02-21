@@ -1,0 +1,18 @@
+{
+  "name": "bannedfromclubpenguin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keyeh",
+  "license": "ISC",
+  "dependencies": {
+    "fs-writefile-promise": "^2.0.0",
+    "mail-listener2": "^0.3.1",
+    "opn": "^4.0.2",
+    "selenium-webdriver": "^3.1.0"
+  }
+}
